@@ -1,0 +1,59 @@
+{
+ "PFI": {
+  "F": 0.8819269437197489,
+  "S": 0.9833333333333332,
+  "S_status": "evaluated",
+  "C": 1.0,
+  "C_status": "evaluated",
+  "C_tie_aware": 1.0,
+  "L_median_ms": 6316.346900013741,
+  "L_p95_ms": 6419.744660018478,
+  "M_kb": 1230.900390625,
+  "model_version": "ridge-seed42",
+  "evaluated_at": "2026-10-19T16:53:59"
+ },
+ "PermSHAP": {
+  "F": 1.0,
+  "S": 1.0,
+  "S_status": "evaluated",
+  "C": 1.0,
+  "C_status": "evaluated",
+  "C_tie_aware": 1.0,
+  "L_median_ms": 587.1182999690063,
+  "L_p95_ms": 602.815139980521,
+  "M_kb": 1912.4755859375,
+  "model_version": "ridge-seed42",
+  "evaluated_at": "2026-10-19T16:53:59"
+ },
+ "LIME": {
+  "F": 0.563242442368197,
+  "S": 1.0,
+  "S_status": "evaluated",
+  "C": 1.0,
+  "C_status": "evaluated",
+  "C_tie_aware": 1.0,
+  "L_median_ms": 87.8056499932427,
+  "L_p95_ms": 94.57816000212915,
+  "M_kb": 752.25439453125,
+  "model_version": "ridge-seed42",
+  "evaluated_at": "2026-10-19T16:53:59"
+ },
+ "TFI": {
+  "model_eligible": false,
+  "F": null,
+  "S": null,
+  "C": null,
+  "C_tie_aware": null,
+  "status": "Not Evaluable: TFI requires a tree-based model (ridge given)",
+  "model_version": "ridge-seed42"
+ },
+ "TreeSHAP": {
+  "model_eligible": false,
+  "F": null,
+  "S": null,
+  "C": null,
+  "C_tie_aware": null,
+  "status": "Not Evaluable: TreeSHAP requires a tree-based model (ridge given)",
+  "model_version": "ridge-seed42"
+ }
+}

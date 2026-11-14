@@ -1,0 +1,24 @@
+VALEX 1.0 - research licence
+
+Copyright (c) 2026 Hayat Ouadi. All rights reserved.
+
+1. Permission is granted, free of charge, to any person obtaining a copy of this software and its
+   documentation (the "Software") to use, copy and modify the Software for non-commercial research and
+   teaching, and for reproducing and verifying the results of the associated publications, provided that
+   this notice is kept in all copies and that the associated publications are cited (see CITATION.cff).
+
+2. Any commercial use of the Software, or of the method it implements, requires prior written
+   permission from the copyright holder.
+
+3. The multi-level evaluation and tiered orchestration method implemented in the Software is the subject
+   of Moroccan patent application No. 76638 (OMPIC, filed 13 October 2026). No licence under any patent
+   or patent application is granted by this notice.
+
+4. The result files in the "results" folder may be reused under the Creative Commons Attribution 4.0
+   International licence (CC BY 4.0), with attribution to the associated publications.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

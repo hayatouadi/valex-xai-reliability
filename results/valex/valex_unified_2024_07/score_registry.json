@@ -1,0 +1,54 @@
+{
+ "TFI": {
+  "F": 0.7295264388728016,
+  "S": null,
+  "S_status": "Not Evaluable",
+  "C": 0.7999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.5797509043642028,
+  "L_median_ms": 6.162550009321421,
+  "L_p95_ms": 7.192340004257858,
+  "M_kb": 9.564453125,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-20T16:44:09"
+ },
+ "PFI": {
+  "F": 1.0,
+  "S": 0.7666666666666665,
+  "S_status": "evaluated",
+  "C": 0.9999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 2425.192499998957,
+  "L_p95_ms": 2456.8426199955866,
+  "M_kb": 941.0341796875,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-20T16:44:09"
+ },
+ "TreeSHAP": {
+  "F": 0.9920290477664488,
+  "S": 1.0,
+  "S_status": "evaluated",
+  "C": 0.9999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 40.81829998176545,
+  "L_p95_ms": 42.935109985410236,
+  "M_kb": 28.26611328125,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-20T16:44:09"
+ },
+ "LIME": {
+  "F": 0.9648338156662501,
+  "S": 0.7333333333333333,
+  "S_status": "evaluated",
+  "C": 0.8999999999999998,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 44.10685002221726,
+  "L_p95_ms": 46.97595997713506,
+  "M_kb": 684.01318359375,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-20T16:44:09"
+ }
+}

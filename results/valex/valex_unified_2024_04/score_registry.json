@@ -1,0 +1,54 @@
+{
+ "TFI": {
+  "F": 1.0,
+  "S": null,
+  "S_status": "Not Evaluable",
+  "C": 0.5428571428571429,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.6761234037828133,
+  "L_median_ms": 2.427150000585243,
+  "L_p95_ms": 3.9429899828974158,
+  "M_kb": 9.564453125,
+  "model_version": "xgboost-3.4.1-seed42",
+  "evaluated_at": "2026-10-19T16:46:13"
+ },
+ "PFI": {
+  "F": 0.9857856158506612,
+  "S": 1.0,
+  "S_status": "evaluated",
+  "C": 0.7714285714285715,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.8451542547285166,
+  "L_median_ms": 1291.8056000489742,
+  "L_p95_ms": 1388.0129999946803,
+  "M_kb": 940.5087890625,
+  "model_version": "xgboost-3.4.1-seed42",
+  "evaluated_at": "2026-10-19T16:46:13"
+ },
+ "TreeSHAP": {
+  "F": 0.9954785393120862,
+  "S": 0.9166666666666666,
+  "S_status": "evaluated",
+  "C": 0.7142857142857143,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.8451542547285166,
+  "L_median_ms": 19.78744997177273,
+  "L_p95_ms": 21.036864980123937,
+  "M_kb": 28.26904296875,
+  "model_version": "xgboost-3.4.1-seed42",
+  "evaluated_at": "2026-10-19T16:46:13"
+ },
+ "LIME": {
+  "F": 0.9044932868800759,
+  "S": 0.8666666666666666,
+  "S_status": "evaluated",
+  "C": 0.8857142857142858,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.8451542547285166,
+  "L_median_ms": 23.73990000342019,
+  "L_p95_ms": 31.619930019951425,
+  "M_kb": 683.74169921875,
+  "model_version": "xgboost-3.4.1-seed42",
+  "evaluated_at": "2026-10-19T16:46:13"
+ }
+}

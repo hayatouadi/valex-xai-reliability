@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article below."
+title: "VALEX 1.0: reliability audit of post-hoc explanations on French health-insurance claims"
+type: software
+authors:
+  - family-names: Ouadi
+    given-names: Hayat
+    affiliation: "Research Laboratory in Applied Sciences (LaRSA), ENSA Oujda, Mohammed First University"
+version: "1.0.0"
+date-released: "2026-11-14"
+license-url: "LICENSE"
+keywords:
+  - explainable artificial intelligence
+  - evaluation of explanations
+  - decision support systems
+  - target leakage
+  - health-insurance claims
+preferred-citation:
+  type: article
+  title: "Auditing the reliability of post-hoc explanations for health-insurance decision support: Leakage, faithfulness, stability and cost on 228 million claims"
+  authors:
+    - family-names: Ouadi
+      given-names: Hayat
+    - family-names: El Farissi
+      given-names: Ilhame
+  journal: "Decision Support Systems"
+  status: submitted
+  year: 2026

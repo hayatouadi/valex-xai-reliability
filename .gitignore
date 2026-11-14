@@ -1,0 +1,13 @@
+# raw Open DAMIR files (about 1 GB each): download them, do not commit them
+data/*.csv
+data/*.csv.gz
+!data/A202401_extract_200k.csv.gz
+results_test/
+# regenerated outputs
+figures/
+*.log
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store

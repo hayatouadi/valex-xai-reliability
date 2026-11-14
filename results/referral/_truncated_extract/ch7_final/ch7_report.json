@@ -1,0 +1,203 @@
+{
+ "design": {
+  "unit": "aggregated Open DAMIR cell",
+  "outcome": "EUR reimbursed per act",
+  "exposure": "prescriber specialty != executor specialty (both physicians)",
+  "exact_strata": [
+   "PRS_NAT",
+   "PRS_PPU_SEC"
+  ],
+  "k": 5,
+  "caliper_logit": 0.7178105086748818,
+  "caliper_rule": "0.2 x SD(logit PS)",
+  "bootstrap": 500
+ },
+ "flow": {
+  "rows_in_file": 1048575,
+  "reference_reimbursement_type": 529386,
+  "both_roles_physicians": 103015,
+  "positive_act_quantity": 75676,
+  "treated_before_strata": 24392,
+  "after_exact_strata": 61549,
+  "n_strata": 42
+ },
+ "n_treated": 23622,
+ "n_control": 37927,
+ "ps_auc": 0.9554858216289586,
+ "n_treated_matched": 23133,
+ "n_unique_controls_used": 8212,
+ "outcome_means": {
+  "treated": 25.52883815485027,
+  "control": 31.53844112889466,
+  "sd_all": 49.13249864540923
+ },
+ "att_matching": {
+  "estimate": 0.4534188502471463,
+  "se": 0.1721610417588691,
+  "ci95": [
+   0.11835068798759867,
+   0.7800498721452704
+  ],
+  "act_weighted_estimate": -0.3934048672144962,
+  "act_weighted_ci95": [
+   -1.4478968786417246,
+   0.7192426363696574
+  ],
+  "median_cell_effect": -0.0699999999999994
+ },
+ "att_ipw": {
+  "estimate": 1.0250567507665984,
+  "ci95": [
+   -0.30089176540740775,
+   2.387477732394436
+  ],
+  "ess_control": 1413.6049473600087,
+  "estimate_weights_truncated_p99": 1.2425171480871597
+ },
+ "balance": {
+  "max_abs_smd_before": 2.4531291674643825,
+  "max_abs_smd_matched": 0.13870785303694377,
+  "share_lt_0_1_matched": 0.9765625,
+  "max_abs_smd_ipw": 0.5217803827344761,
+  "share_lt_0_1_ipw": 0.9097744360902256,
+  "worst10_matched": {
+   "BEN_RES_REG_99": 0.139,
+   "BEN_RES_REG_52": 0.112,
+   "ETE_CAT_SNDS_1101": 0.109,
+   "BEN_RES_REG_84": 0.091,
+   "BEN_RES_REG_93": 0.081,
+   "ETE_CAT_SNDS_1110": 0.074,
+   "ETE_TYP_SNDS_2": 0.074,
+   "ETE_TYP_SNDS_6": 0.073,
+   "PSE_STJ_SNDS_2": 0.065,
+   "PSE_ACT_CAT_0": 0.065
+  }
+ },
+ "sensitivity_grid": [
+  {
+   "k": 1,
+   "caliper_sd": 0.1,
+   "n_matched": 22997,
+   "att": 0.6275495402973926,
+   "max_abs_smd": 0.15762279767231288
+  },
+  {
+   "k": 1,
+   "caliper_sd": 0.2,
+   "n_matched": 23133,
+   "att": 0.7090932332242363,
+   "max_abs_smd": 0.15682269177267222
+  },
+  {
+   "k": 1,
+   "caliper_sd": 0.5,
+   "n_matched": 23409,
+   "att": 1.2789196697733844,
+   "max_abs_smd": 0.1553784992744191
+  },
+  {
+   "k": 3,
+   "caliper_sd": 0.1,
+   "n_matched": 22997,
+   "att": 0.47964819450019464,
+   "max_abs_smd": 0.1393009921089913
+  },
+  {
+   "k": 3,
+   "caliper_sd": 0.2,
+   "n_matched": 23133,
+   "att": 0.5752329731819159,
+   "max_abs_smd": 0.13569833994619507
+  },
+  {
+   "k": 3,
+   "caliper_sd": 0.5,
+   "n_matched": 23409,
+   "att": 1.1268443193559246,
+   "max_abs_smd": 0.13392699013931367
+  },
+  {
+   "k": 5,
+   "caliper_sd": 0.1,
+   "n_matched": 22997,
+   "att": 0.34169468836597394,
+   "max_abs_smd": 0.14187451018346375
+  },
+  {
+   "k": 5,
+   "caliper_sd": 0.2,
+   "n_matched": 23133,
+   "att": 0.4534188502471463,
+   "max_abs_smd": 0.13870785303694377
+  },
+  {
+   "k": 5,
+   "caliper_sd": 0.5,
+   "n_matched": 23409,
+   "att": 0.9570960570063242,
+   "max_abs_smd": 0.13502747826378303
+  },
+  {
+   "k": 10,
+   "caliper_sd": 0.1,
+   "n_matched": 22997,
+   "att": 0.272310175754231,
+   "max_abs_smd": 0.13617569421709222
+  },
+  {
+   "k": 10,
+   "caliper_sd": 0.2,
+   "n_matched": 23133,
+   "att": 0.4263775406158045,
+   "max_abs_smd": 0.1295924928914848
+  },
+  {
+   "k": 10,
+   "caliper_sd": 0.5,
+   "n_matched": 23409,
+   "att": 0.9552138485136717,
+   "max_abs_smd": 0.12650997814787412
+  }
+ ],
+ "placebo": {
+  "n": 100,
+  "mean": 0.08845775917749873,
+  "q025_q975": [
+   -0.6112721357129427,
+   0.76039937622697
+  ],
+  "att_ci95_placebo_calibrated": [
+   -0.2185227668023249,
+   1.1531487451375877
+  ],
+  "two_sided_placebo_p": 0.19
+ },
+ "e_value_point": 1.1006526426367935,
+ "e_value_ci_bound": 1.0490904065003732,
+ "level3_alignment": {
+  "causal_att": 0.4534188502471463,
+  "causal_ci95": [
+   0.11835068798759867,
+   0.7800498721452704
+  ],
+  "model_implied_att": 0.0390763059258461,
+  "model_implied_ci95": [
+   -0.009985207393765447,
+   0.08564068265259266
+  ],
+  "mean_treeshap_D_on_treated_log_scale": -0.01729474775493145,
+  "share_treated_with_positive_shap_D": 0.04919379241775818,
+  "rank_of_D_in_mean_abs_shap": 22,
+  "n_model_features": 176,
+  "sign_agreement_model": true,
+  "sign_agreement_shap": false,
+  "model_att_inside_causal_ci": false,
+  "relative_gap": 0.9138185236353833,
+  "causal_ci95_placebo_calibrated": [
+   -0.2185227668023249,
+   1.1531487451375877
+  ],
+  "model_att_inside_calibrated_ci": true,
+  "verdict": "aligned (both indistinguishable from zero)"
+ }
+}

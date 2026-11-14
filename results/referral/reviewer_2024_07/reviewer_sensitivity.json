@@ -1,0 +1,255 @@
+{
+ "exposures": [
+  {
+   "exposure": "main",
+   "n_cells": 2837282,
+   "n_treated": 1046048,
+   "n_strata": 124,
+   "ps_auc": 0.9620158745546377,
+   "n_treated_matched": 1043164,
+   "att": 0.1002026438796798,
+   "ci95_boot": [
+    -0.03361985277192241,
+    0.2450463930367764
+   ],
+   "placebo_mean": 0.17378752682205423,
+   "att_bias_corrected": -0.07358488294237443,
+   "ci95_placebo_calibrated": [
+    -0.12145613340232718,
+    0.3842070775676409
+   ],
+   "placebo_p": 0.5,
+   "max_abs_smd_before": 2.4892353522161037,
+   "max_abs_smd_matched": 0.12264667067071408,
+   "mean_outcome_treated": 26.647617284308815,
+   "e_value": 1.037589919314042
+  },
+  {
+   "exposure": "known_spec",
+   "n_cells": 2836940,
+   "n_treated": 1045706,
+   "n_strata": 124,
+   "ps_auc": 0.9620518197048508,
+   "n_treated_matched": 1043025,
+   "att": 0.10407519374290862,
+   "ci95_boot": [
+    -0.032099492257789436,
+    0.25371537969316105
+   ],
+   "placebo_mean": 0.17833914070024026,
+   "att_bias_corrected": -0.07426394695733164,
+   "ci95_placebo_calibrated": [
+    -0.13536656047277518,
+    0.3202951861395952
+   ],
+   "placebo_p": 0.42,
+   "max_abs_smd_before": 2.4902393208229716,
+   "max_abs_smd_matched": 0.12297610356327594,
+   "mean_outcome_treated": 26.649642492725057,
+   "e_value": 1.0383355101966982
+  },
+  {
+   "exposure": "no_technical",
+   "n_cells": 2382653,
+   "n_treated": 809337,
+   "n_strata": 118,
+   "ps_auc": 0.9730085586319279,
+   "n_treated_matched": 808356,
+   "att": 0.8371423826876729,
+   "ci95_boot": [
+    0.6875803957874469,
+    0.9832736121580204
+   ],
+   "placebo_mean": -0.015162677039688299,
+   "att_bias_corrected": 0.8523050597273613,
+   "ci95_placebo_calibrated": [
+    0.5563405963450283,
+    1.2455013053475104
+   ],
+   "placebo_p": 0.0,
+   "max_abs_smd_before": 3.278578259071079,
+   "max_abs_smd_matched": 0.14350318075967347,
+   "mean_outcome_treated": 25.564960184349964,
+   "e_value": 1.1136930511272494
+  },
+  {
+   "exposure": "gp_referral",
+   "n_cells": 1126913,
+   "n_treated": 945145,
+   "n_strata": 72,
+   "ps_auc": 0.9655920423622645,
+   "n_treated_matched": 876693,
+   "att": 0.9637425466174446,
+   "ci95_boot": [
+    0.8594026779279799,
+    1.0836904387950699
+   ],
+   "placebo_mean": 0.057215398903115736,
+   "att_bias_corrected": 0.9065271477143289,
+   "ci95_placebo_calibrated": [
+    0.6313196660442462,
+    1.3335857710041443
+   ],
+   "placebo_p": 0.0,
+   "max_abs_smd_before": 2.201699531797287,
+   "max_abs_smd_matched": 0.34994946405730026,
+   "mean_outcome_treated": 26.012034197929882,
+   "e_value": 1.120237553077472
+  },
+  {
+   "exposure": "no_pathway_cov",
+   "n_cells": 2837282,
+   "n_treated": 1046048,
+   "n_strata": 124,
+   "ps_auc": 0.961155736825271,
+   "n_treated_matched": 1043155,
+   "att": -0.007368892485470419,
+   "ci95_boot": [
+    -0.1542247122187454,
+    0.14083844825889083
+   ],
+   "placebo_mean": 0.2515421310438648,
+   "att_bias_corrected": -0.2589110235293352,
+   "ci95_placebo_calibrated": [
+    -0.23386658194835344,
+    0.2530594027156298
+   ],
+   "placebo_p": 0.96,
+   "max_abs_smd_before": 2.4892353522161037,
+   "max_abs_smd_matched": 0.16837606802518368,
+   "mean_outcome_treated": 26.647617284308815,
+   "e_value": 1.0099249508174548
+  }
+ ],
+ "weighting": [
+  {
+   "estimator": "ATT-IPW, untruncated",
+   "estimand": "ATT",
+   "estimate": 1.3800217572566993,
+   "ci95": [
+    0.2141899204393873,
+    2.2500607143596145
+   ],
+   "max_abs_smd": 1.4696893692016602,
+   "share_smd_lt_0_1": 0.8273381294964028,
+   "ess_control": 1598.830650862149,
+   "n_treated": 1046048
+  },
+  {
+   "estimator": "ATT-IPW, control weights truncated at p95",
+   "estimand": "ATT",
+   "estimate": -1.437047822298517,
+   "ci95": [
+    -1.6716212524939627,
+    -1.2027858359462271
+   ],
+   "max_abs_smd": 0.45335444808006287,
+   "share_smd_lt_0_1": 0.9064748201438849,
+   "ess_control": 173857.7165743777,
+   "n_treated": 1046048
+  },
+  {
+   "estimator": "ATT-IPW, control weights truncated at p99",
+   "estimand": "ATT",
+   "estimate": 0.5538219911768003,
+   "ci95": [
+    0.2904516125602458,
+    0.8479075171245354
+   ],
+   "max_abs_smd": 0.25259172916412354,
+   "share_smd_lt_0_1": 0.9568345323741008,
+   "ess_control": 120884.77929366931,
+   "n_treated": 1046048
+  },
+  {
+   "estimator": "ATT-IPW, control weights truncated at p99.9",
+   "estimand": "ATT",
+   "estimate": 0.6478028568688288,
+   "ci95": [
+    0.21928350380066786,
+    1.0529151911474863
+   ],
+   "max_abs_smd": 0.44906288385391235,
+   "share_smd_lt_0_1": 0.935251798561151,
+   "ess_control": 91361.66276963652,
+   "n_treated": 1046048
+  },
+  {
+   "estimator": "ATT-IPW, stratum-normalized",
+   "estimand": "ATT",
+   "estimate": 0.8081568049961483,
+   "ci95": [
+    0.4857363063307287,
+    1.1068502102100746
+   ],
+   "max_abs_smd": 0.1817394345998764,
+   "share_smd_lt_0_1": 0.9064748201438849,
+   "ess_control": 75801.20823208423,
+   "n_treated": 1046048
+  },
+  {
+   "estimator": "ATT-IPW, stratum-normalized, matched support",
+   "estimand": "ATT",
+   "estimate": 0.799599724780343,
+   "ci95": [
+    0.5206538267487563,
+    1.0673821406460788
+   ],
+   "max_abs_smd": 0.18167482316493988,
+   "share_smd_lt_0_1": 0.8992805755395683,
+   "ess_control": 75472.56424972441,
+   "n_treated": 1043164
+  },
+  {
+   "estimator": "Overlap weights (ATO)",
+   "estimand": "ATO",
+   "estimate": -2.7671507711563414,
+   "ci95": [
+    -3.1731140661070008,
+    -2.2682202958430175
+   ],
+   "max_abs_smd": 0.008289523422718048,
+   "share_smd_lt_0_1": 1.0,
+   "ess_control": 307892.9892019252,
+   "n_treated": 1046048
+  }
+ ],
+ "concordance": {
+  "cells": {
+   "executor_is_gp": {
+    "0": 138486.0,
+    "1": 7691.0
+   },
+   "not_applicable": {
+    "0": 16.0,
+    "1": 14.0
+   },
+   "oriented_by_gp": {
+    "0": 725578.0,
+    "1": 734003.0
+   },
+   "other_pathway_code": {
+    "0": 927154.0,
+    "1": 304340.0
+   }
+  },
+  "acts": {
+   "executor_is_gp": {
+    "0": 11506737.0,
+    "1": 35373.0
+   },
+   "not_applicable": {
+    "0": 52.0,
+    "1": 57.0
+   },
+   "oriented_by_gp": {
+    "0": 16072745.0,
+    "1": 7213666.0
+   },
+   "other_pathway_code": {
+    "0": 20103621.0,
+    "1": 2370430.0
+   }
+  }
+ }
+}

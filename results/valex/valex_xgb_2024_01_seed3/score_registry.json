@@ -1,0 +1,54 @@
+{
+ "TFI": {
+  "F": 0.7649431657799352,
+  "S": null,
+  "S_status": "Not Evaluable",
+  "C": 0.8999999999999998,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.7905694150420948,
+  "L_median_ms": 6.788850005250424,
+  "L_p95_ms": 7.611514994641766,
+  "M_kb": 9.564453125,
+  "model_version": "xgb-seed3",
+  "evaluated_at": "2026-10-19T18:04:57"
+ },
+ "PFI": {
+  "F": 1.0,
+  "S": 0.9,
+  "S_status": "evaluated",
+  "C": 0.9999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 2501.3096000184305,
+  "L_p95_ms": 2521.2479999870993,
+  "M_kb": 936.2646484375,
+  "model_version": "xgb-seed3",
+  "evaluated_at": "2026-10-19T18:04:57"
+ },
+ "TreeSHAP": {
+  "F": 0.9800478179279046,
+  "S": 1.0,
+  "S_status": "evaluated",
+  "C": 0.9999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 42.90975001640618,
+  "L_p95_ms": 45.30374997993931,
+  "M_kb": 28.283203125,
+  "model_version": "xgb-seed3",
+  "evaluated_at": "2026-10-19T18:04:57"
+ },
+ "LIME": {
+  "F": 0.9493224104083942,
+  "S": 0.6857142857142857,
+  "S_status": "evaluated",
+  "C": 0.8999999999999998,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9486832980505138,
+  "L_median_ms": 47.609950008336455,
+  "L_p95_ms": 49.29945498297457,
+  "M_kb": 683.716796875,
+  "model_version": "xgb-seed3",
+  "evaluated_at": "2026-10-19T18:04:57"
+ }
+}

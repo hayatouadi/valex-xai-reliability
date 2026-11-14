@@ -1,0 +1,59 @@
+{
+ "PFI": {
+  "F": 1.0,
+  "S": 0.9333333333333332,
+  "S_status": "evaluated",
+  "C": 0.7999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.8720815992723809,
+  "L_median_ms": 6871.618500037584,
+  "L_p95_ms": 6980.960180005059,
+  "M_kb": 1475.6181640625,
+  "model_version": "mlp-seed42",
+  "evaluated_at": "2026-10-19T17:24:06"
+ },
+ "PermSHAP": {
+  "F": 0.9998087388971023,
+  "S": 0.7999999999999999,
+  "S_status": "evaluated",
+  "C": 0.8999999999999998,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9746794344808964,
+  "L_median_ms": 701.2979999999516,
+  "L_p95_ms": 738.2648199913092,
+  "M_kb": 2184.80859375,
+  "model_version": "mlp-seed42",
+  "evaluated_at": "2026-10-19T17:24:06"
+ },
+ "LIME": {
+  "F": 0.9674253107844966,
+  "S": 0.7523809523809524,
+  "S_status": "evaluated",
+  "C": 0.9999999999999999,
+  "C_status": "evaluated",
+  "C_tie_aware": 0.9746794344808964,
+  "L_median_ms": 105.11075000977144,
+  "L_p95_ms": 107.57492498087231,
+  "M_kb": 889.39404296875,
+  "model_version": "mlp-seed42",
+  "evaluated_at": "2026-10-19T17:24:06"
+ },
+ "TFI": {
+  "model_eligible": false,
+  "F": null,
+  "S": null,
+  "C": null,
+  "C_tie_aware": null,
+  "status": "Not Evaluable: TFI requires a tree-based model (mlp given)",
+  "model_version": "mlp-seed42"
+ },
+ "TreeSHAP": {
+  "model_eligible": false,
+  "F": null,
+  "S": null,
+  "C": null,
+  "C_tie_aware": null,
+  "status": "Not Evaluable: TreeSHAP requires a tree-based model (mlp given)",
+  "model_version": "mlp-seed42"
+ }
+}

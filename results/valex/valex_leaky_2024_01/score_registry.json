@@ -1,0 +1,54 @@
+{
+ "TFI": {
+  "F": 1.0,
+  "S": null,
+  "S_status": "Not Evaluable",
+  "C": null,
+  "C_status": "Not Evaluable",
+  "C_tie_aware": null,
+  "L_median_ms": 5.902400007471442,
+  "L_p95_ms": 7.716234913095831,
+  "M_kb": 10.283203125,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-24T19:46:17"
+ },
+ "PFI": {
+  "F": 0.9848041457223056,
+  "S": 0.6071428571428571,
+  "S_status": "evaluated",
+  "C": null,
+  "C_status": "Not Evaluable",
+  "C_tie_aware": null,
+  "L_median_ms": 3853.127999929711,
+  "L_p95_ms": 3891.5029999800026,
+  "M_kb": 1138.78125,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-24T19:46:17"
+ },
+ "TreeSHAP": {
+  "F": 0.9972544763905895,
+  "S": 0.6666666666666665,
+  "S_status": "evaluated",
+  "C": null,
+  "C_status": "Not Evaluable",
+  "C_tie_aware": null,
+  "L_median_ms": 47.00764996232465,
+  "L_p95_ms": 48.23870497639291,
+  "M_kb": 39.65185546875,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-24T19:46:17"
+ },
+ "LIME": {
+  "F": 0.6805641429654987,
+  "S": 0.6857142857142857,
+  "S_status": "evaluated",
+  "C": null,
+  "C_status": "Not Evaluable",
+  "C_tie_aware": null,
+  "L_median_ms": 46.34770005941391,
+  "L_p95_ms": 48.957565013552085,
+  "M_kb": 919.7529296875,
+  "model_version": "xgb-seed42",
+  "evaluated_at": "2026-10-24T19:46:17"
+ }
+}
